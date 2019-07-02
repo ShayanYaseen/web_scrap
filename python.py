@@ -1,6 +1,6 @@
 from urllib.request import urlopen as ureq
 from bs4 import BeautifulSoup as Soup
-//Example website used for graphic cards since my laptop doesnt have one :(
+#Example website used for graphic cards since my laptop doesnt have one :(
 my_url = 'https://www.newegg.com/Video-Cards-Video-Devices/Category/ID-38?Tpk=graphic%20cards'
 #connecting to webpage and grabbing the page
 uClient = ureq(my_url)
